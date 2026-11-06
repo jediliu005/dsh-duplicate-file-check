@@ -1,0 +1,23 @@
+{
+  "name": "dsh-duplicate-file-check",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Duplicate file checker for DSH: exact duplicates by size plus head/middle/tail byte sampling, and near-duplicate MP4 detection by duration grouping and first-10s frame similarity. Delete exact duplicates or move suspects with sequential names.",
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": ["slots"]
+    }
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,4 @@
+- insert:
+    - id: duplicate-file-check
+      name: dsh-duplicate-file-check
+      config: {}
