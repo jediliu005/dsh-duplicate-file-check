@@ -1,6 +1,6 @@
 # dsh-duplicate-file-check
 
-DSH（DeepSeek Harness）的重复文件 / 视频整理插件：查重、抓帧比对、批量改名、按大小或时长重命名并移动、把 MOV/AVI/WMV 统一转成 MP4。
+DSH（DeepSeek Harness）的重复文件 / 视频整理插件（面板与侧边栏显示为「小视频整理」）：查重、抓帧比对、批量改名、按大小或时长重命名并移动、把 MOV/AVI/WMV 统一转成 MP4。
 
 面板按任务分组折叠，每个任务都有独立的开始按钮、进度和状态；同一时刻只允许一个任务在跑。
 
