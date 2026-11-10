@@ -1,6 +1,6 @@
 {
   "name": "dsh-duplicate-file-check",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
   "description": "Duplicate file checker for DSH: exact duplicates (size + head/middle/tail sampling or full byte compare), near-duplicate MP4 detection by duration and first-10s frame similarity, batch rename (extension / UUID / by size / by video duration), and unified encoding of MOV/AVI/WMV to MP4 detected by file header. Concurrent execution, smart copy, HDR modes, hardware encoders.",
