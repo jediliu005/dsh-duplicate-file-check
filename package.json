@@ -1,9 +1,8 @@
 {
   "name": "dsh-duplicate-file-check",
-  "version": "0.4.0",
-  "private": true,
+  "version": "0.5.0",
   "type": "module",
-  "description": "Duplicate file checker for DSH: exact duplicates (size + head/middle/tail sampling or full byte compare), near-duplicate MP4 detection by duration and first-10s frame similarity, batch rename (extension / UUID / by size / by video duration), and unified encoding of MOV/AVI/WMV to MP4 detected by file header. Concurrent execution, smart copy, HDR modes, hardware encoders.",
+  "description": "小视频整理：完全一致查重、MP4 帧级近似查重、批量改名/移动、MOV/AVI/WMV 统一转 MP4；自动准备 ffmpeg。",
   "main": "./lib/index.js",
   "exports": {
     ".": "./lib/index.js",
@@ -35,5 +34,22 @@
     "batch-rename",
     "ffmpeg",
     "mov-to-mp4"
-  ]
+  ],
+  "engines": {
+    "node": "^22.19.0 || >=24.0.0",
+    "dsh": ">=0.2.0-rc.2"
+  },
+  "optionalDependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@ffprobe-installer/ffprobe": "^2.1.2"
+  },
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "bugs": {
+    "url": "https://github.com/jediliu005/dsh-duplicate-file-check/issues"
+  }
 }
