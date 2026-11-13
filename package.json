@@ -1,6 +1,6 @@
 {
   "name": "dsh-duplicate-file-check",
-  "version": "0.5.0",
+  "version": "0.5.1",
   "type": "module",
   "description": "小视频整理：完全一致查重、MP4 帧级近似查重、批量改名/移动、MOV/AVI/WMV 统一转 MP4；自动准备 ffmpeg。",
   "main": "./lib/index.js",
